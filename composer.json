@@ -1,0 +1,25 @@
+{
+  "name": "mymain/simple-ddd",
+  "description": "Simple ddd app",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "ext-pdo": "*",
+    "php": "^8.1",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7.2",
+    "phpunit/phpunit": "^10.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\": "tests/"
+    }
+  }
+}
